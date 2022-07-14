@@ -1,12 +1,16 @@
 import React, {useState} from 'react';
 import './App.css';
-import ExampleUseState from "./hooks/UseState";
+import UseState from "./hooks/UseState";
+import UseEffect from "./hooks/UseEffect";
 
 
 
-const App = () => <div>
-    {/*<ExampleUseState/>*/}
-
-</div>
+const App = () => {
+    return (
+        <div>
+            {/*<UseState/>*/}
+            <UseEffect/>
+         </div>)
+}
 
 export default App;
